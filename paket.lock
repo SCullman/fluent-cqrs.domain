@@ -1,0 +1,5 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Fluent-CQRS (2.0.4.2)
+    Stateless (2.5.62)
