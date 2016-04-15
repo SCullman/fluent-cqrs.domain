@@ -37,7 +37,7 @@ namespace Fluent_CQRS
             Tell(message);
         }
 
-        public void Receive(IEnumerable<IAmAnEventMessage> events)
+        void IHandleEvents.Receive(IEnumerable<IAmAnEventMessage> events)
         {
             foreach (var msg in events)
             {
